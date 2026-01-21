@@ -1,0 +1,35 @@
+.advantages {
+
+  &__list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__item{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: fit-content;
+  }
+
+  &__icon {
+    display: inline-block;
+    background-color: #24A1DE;
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  &__icon-svg {
+    fill: #fff;
+    width: 56px;
+    height: 56px;
+  }
+
+  &__link{
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

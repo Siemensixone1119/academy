@@ -1,0 +1,64 @@
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  &__brand {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__logo {
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: underline;
+
+    svg {
+      width: 135px;
+      height: 135px;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__social-link {
+    width: 22px;
+    height: 22px;
+  }
+
+  &__social-link {
+    display: inline-block;
+    background-color: #DE913F;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  &__social-icon {
+    width: 12px;
+    height: 12px;
+    line-height: 0;
+    fill: #fff;
+  }
+
+  &__columns {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    gap: 20px;
+  }
+
+  &__title {
+    display: inline-flex;
+    margin-bottom: 5px;
+  }
+
+  &__item {
+    font-weight: 400;
+  }
+}

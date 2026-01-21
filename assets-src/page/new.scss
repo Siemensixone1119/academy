@@ -1,0 +1,23 @@
+.news-full {
+
+  div {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.55;
+    text-align: justify;
+  }
+
+  img{
+    max-width: 50%;
+  }
+
+  h1{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  &__wrap{
+    display: flex;
+    gap: 50px;
+  }
+}

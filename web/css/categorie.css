@@ -1,0 +1,37 @@
+.program span,
+.program p,
+.birthday span,
+.birthday p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.55;
+  text-align: justify;
+}
+.program__section-title, .program__subtitle,
+.birthday__section-title,
+.birthday__subtitle {
+  text-align: left;
+  margin: 15px 0 8px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.program__list-text,
+.birthday__list-text {
+  padding-left: 50px;
+}
+.program__list-text::before,
+.birthday__list-text::before {
+  content: "--";
+  letter-spacing: -0.16em;
+  padding-right: 15px;
+  color: #DE913F;
+}
+.program__cta-link,
+.birthday__cta-link {
+  padding: 10px 20px;
+  background-color: #DE913F;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  display: inline-block;
+}/*# sourceMappingURL=categorie.css.map */

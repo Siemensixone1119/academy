@@ -1,0 +1,53 @@
+.request {
+
+  &__wrap{
+    display: flex;
+    // justify-content: space-around;
+    align-items: flex-start;
+    gap: 100px;
+
+    img{
+      width: 420px;
+    }
+  }
+
+  &__content{
+    width: 50%;
+  }
+
+    &__fields{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+  &__input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+
+  &__policy{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  &__checkbox{
+    width: 20px;
+    height: 20px;
+  }
+
+  &__submit{
+    background-color: #DE913F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 25px;
+  }
+}

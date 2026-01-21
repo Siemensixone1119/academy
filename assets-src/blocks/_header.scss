@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  align-items: center;
+
+
+  &__logo {
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: underline;
+
+    svg {
+      width: 95px;
+      height: 110px;
+    }
+  }
+
+  &__nav {
+    height: fit-content;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__social {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__social-link {
+    display: inline-block;
+    background-color: #DE913F;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  &__social-icon {
+    width: 18px;
+    height: 18px;
+    line-height: 0;
+    fill: #fff;
+  }
+
+  &__phone-wrap {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__phone {
+    color: #DE913F;
+  }
+}
